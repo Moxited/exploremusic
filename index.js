@@ -73,17 +73,6 @@ botPlug.on('advance', function (data) {
     currentPlugData = data;
 });
 
-botPlug.on('userLeave', function (data) {
-    //console.log(data);
-    // Check if we're all alone
-    var roomMeta = botPlug.getRoomMeta();
-    //console.log("Room meta: \n", roomMeta);
-    if (roomMeta.population <= 1 && currentPlugData.currentDJ != undefined && currentPlugData.currentDJ.username == botPlugUserName) {
-        currentChannel.sendMessage("All alone in the plug.dj room... Stopping music.");
-        botPlug.leaveBooth();
-    }
-});
-
 var commands = [
     {
         command: ["music", "room"],

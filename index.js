@@ -814,7 +814,8 @@ function handleYTError(err)
     }
 
     console.log(err.toString());
-}
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
+
+}

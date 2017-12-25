@@ -815,3 +815,5 @@ function handleYTError(err)
 
     console.log(err.toString());
 }
+
+client.login(process.env.BOT_TOKEN);

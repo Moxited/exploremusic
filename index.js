@@ -4,11 +4,11 @@ var PlugAPI = require('plugapi');
 
 
 // PLEASE FILL THESE: TODO: Put these in a config file
-bot.login('DISCORD_BOT_TOKEN');   // NEED_INFO: Your Discord bot user token, get yours here: https://discordapp.com/developers/applications/me
-var apiKey = "API_KEY"; // NEED_INFO: Put a valid YouTube Data API key, get yours here: https://developers.google.com/youtube/v3/getting-started
-var botPlug = new PlugAPI({email: 'email@email.com', password: 'password'});    // NEED_INFO: The email and password for plug.dj that the bot will use (create a new one for the bot, if you use your personal one you won't be able to login at the same time as the bot...)
-const botPlugUserName = 'BOT_PLUG_USERNAME';    // NEED_INFO: The username of the bot on plug.dj
-var plugRoom = 'PLUG_ROOM'; // NEED_INFO: Your plug.dj room, the part after https://plug.dj
+bot.login('MzkxMzI5Njg1MzczNTgzMzYw.DSKQ_Q.xuLYP-nCcq3Nz1h1vngber5jbSc');   // NEED_INFO: Your Discord bot user token, get yours here: https://discordapp.com/developers/applications/me
+var apiKey = "AIzaSyBaOlirrGtcD4IQIJ8SU3z0wmWRLfF6zyA"; // NEED_INFO: Put a valid YouTube Data API key, get yours here: https://developers.google.com/youtube/v3/getting-started
+var botPlug = new PlugAPI({email: 'jack.maja@gmx.de', password: 'Superman1905a'});    // NEED_INFO: The email and password for plug.dj that the bot will use (create a new one for the bot, if you use your personal one you won't be able to login at the same time as the bot...)
+const botPlugUserName = 'exploredmusic';    // NEED_INFO: The username of the bot on plug.dj
+var plugRoom = 'teemoarmy'; // NEED_INFO: Your plug.dj room, the part after https://plug.dj
 
 // Other configs:
 var commandPrefix = "+";
